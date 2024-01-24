@@ -1,0 +1,14 @@
+$background: url(../assets/background.png);
+
+// повышаем специфичность
+div.wrapper#root {
+	// вход
+	& > div.ApplicationLoaderComponentStyle-container,
+    & div.Common-changingBackground,
+    // экран загрузки
+	& > div.Common-entranceBackground {
+		background-image: $background;
+		background-size: cover;
+		background-position: center center;
+	}
+}

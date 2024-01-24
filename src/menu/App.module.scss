@@ -1,0 +1,13 @@
+.root {
+	width: 30em;
+	height: 30em;
+	text-align: center;
+	background-color: rgba(16, 66, 99, 0.527);
+	background-image: url(assets/react.svg);
+
+	& > span {
+		color: black;
+		font-size: 5em;
+		font-weight: 500;
+	}
+}
